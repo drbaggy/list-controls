@@ -1,0 +1,14 @@
+body { margin: 0 auto; font-family: sans-serif; max-width: 960px;
+  display: grid; min-height: 100vh;
+  grid-template-rows: min-content 1fr min-content;
+}
+header { background-color: #ccc; padding: 0.5rem }
+footer { background-color: #ccc; padding: 0.5rem }
+main { margin: 0.5rem }
+
+.list-items > div p  { margin: 0.5rem 1rem }
+.list-items > div h3  { margin: 0; padding: 0.5rem 1rem; background-color: #ccc; border-radius: 0.5rem 0.5rem 0 0 }
+
+table { border-collapse: collapse; }
+th, td { padding: 0.33rem }
+td:has(a) { text-align: right }
